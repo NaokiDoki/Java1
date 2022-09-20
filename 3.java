@@ -3,12 +3,13 @@
 import java.util.*;
 class sum{
 	public static void main(String[] args){
-		Scanner sum = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter any two numbers: ");
-		int a = sum.nextInt();
-		int b = sum.nextInt();
+		int a = scan.nextInt();
+		int b = scan.nextInt();
 		
 		int sum = a + b;
-		System.out.println("The sum is "+sum);
+		System.out.println("The sum is "+ sum);
 		}
-	}
+}
+	
