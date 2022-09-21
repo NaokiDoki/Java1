@@ -13,5 +13,5 @@ class CI{
 		
 		double CI = p*Math.pow(1+r/100,t);
 		System.out.println("The Compound interest is "+CI);
-		}
 	}
+}
