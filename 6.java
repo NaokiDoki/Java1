@@ -15,5 +15,5 @@ class bio2{
 		System.out.println("\nName: " + name);
 		System.out.println("Gender: "+ Gender);
 		System.out.println("DOB: "+ DOB); 
-		}
 	}
+}
