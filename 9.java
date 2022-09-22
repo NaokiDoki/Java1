@@ -10,14 +10,14 @@ class smallest{
 		int b = scan.nextInt();
 		int c = scan.nextInt();
 
-		if(a<b && a<c){				
-		System.out.print(+a+ " is the smallest.");
-		}
-		else if(b<a && b<c){
-		System.out.print(+b+ " is the smallest.");
-		}
-		else{
-		System.out.print(+c+ " is the smallest.");
-		}
+		if(a<b && a<c){			
+			System.out.print(+a+ " is the smallest.");
+		
+		else if(b<a && b<c)
+			System.out.print(+b+ " is the smallest.");
+		
+		else
+			System.out.print(+c+ " is the smallest.");
+		
 	}
 }
