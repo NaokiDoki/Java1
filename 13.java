@@ -4,12 +4,12 @@ import java.util.*;
 public class operations{
 
 	public static void main(String[] args){
-		Scanner st= new Scanner(System.in);
+		Scanner scan= new Scanner(System.in);
 		System.out.println("Enter two numbers:");
-		double a = st.nextDouble();
-		double b = st.nextDouble();
+		double a = scan.nextDouble();
+		double b = scan.nextDouble();
 		System.out.print("Choose (+,-,*,/) to perform respective operation:");
-		String str = st.next();
+		String str = scan.next();
 		char c =str.charAt(0);
 
 		switch(c){
