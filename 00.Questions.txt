@@ -1,0 +1,154 @@
+1. Write a Java Program to display a “Hello World”
+2. Write a Java program to print you Bio Data(No user input)
+3. Write a Java Program to find the sum of two integers number s with user input and display the result
+4. Write a java program to find the simple interest using user input
+5. Write a java program to find the Compound interest
+6. Write a java program to print your name,gender,DOB with user input
+7. Write a java program to find the roots of Quadratic equation. X=-b±√b2-4ac/2a. where a,b and c should be a user input
+8. Write a program to find the greatest number between two numbers (a,b) where theses two numbers should be the user input
+9. Write a program to find the lowest number between three numbers(a,b,c) where these numbers should be the use input
+10. Write a program to generate the simple result where user must  enter the marks of five subject then check whether given entered marks is passed or not. If marks entered in all subject is greater than pass marks the calculate the percentage and division.(assume P.M=35,F.M=100)
+11. Write a Java program to find the number of days in a month
+12. Write a program to find the day when we enter the number using switch case. Where number should be enter by user and  if you press
+  1 then display Sunday
+  2 then display Monday
+  3 then display Tuesday and so on…
+13. Write a program to find sum, subtract, multiply and division using switch case. Where two numbers must be user input and user also must enter the operator.if your press 
+  + then two number must be add and display the result.
+  -  then two number must be subtracted and display the result.
+  *then two number must be multiplied and display thae result.
+  / then there should be division of numbers 
+14. Write a program to print the multiplication table(10 x 10) using for loop
+    Output should like this
+    1 x 1 = 1
+    1 x 2= 2
+    1 x 3 = 3
+    .
+    .
+    .
+    10 x 1 =10
+    .
+    .
+    .
+    10 x 1= 10
+    10 x 2=20
+    10 x 3=30
+    .
+    .
+    10 x 10 =100
+15. Program to print the multiplication table of size 10 x 10 like above example and then this table should skip all the column having number 7(use concept of break or continue)
+16. Program to print the following pattern
+  i)                       ii
+
+  *                         *
+  **                       **
+  ***                     ***    
+  ****                   ****
+  *****                 *****
+17. Program to print the prime number between 20 and 100
+18. Write a program that displays the numbers from 1 to 10 and their squares.
+19. Write a program to sort an integer array elements
+20. Create an array of size n then enter the element in array and find the sum of array elements 
+    1 2 3 4 5 6 7 8 9 10
+    Sum =55
+21. Create an array of size n then enter the element in the array and find min value and max value of an array.
+    4 1 6 19 12 7 39 11 17 21
+    Min= 1
+    Max = 39
+22. Create an 2D array of size 2 x 2 then perform the matrix sum
+23. Create an 2D array of size 3 x 3 then find the determinant
+24. Create an 2D array of size 3 x 3 the display the upper triangle
+    Eg 
+    1           2        3                1               2                3
+    4           5        6        =>                     5                6                
+    7           8        9                                                    9
+25. Create a Class Rectangle having length, breadth and area as instance variable. Create a function name Set (no parameter and no return type) to take the user input for length and breadth. Then create another function name Calculate (no parameter and no return type) to calculate the area and display the area of rectangle. Create another class Imain having main () function to create an object of Rectangle class and invoke the function.
+26. Create a Class Quadratic having a, b, c, x1, and x2 as instance variable. Create a function name Input (no parameter and no return type) to take the user input for a, b, and c. Then create another function name Calculate (no parameter and no return type) to calculate two roots and assign to variable x1 and x2. Also Create another function name Display (no parameter and no return type) to display the two roots. Create another class Imain having main () function to create an object of Quadratic class and invoke the function.
+27. Make class “Rectangle with attributes length ,breadth and area as instance variable. The class contains methods computeArea (no parameters and no return type)and displayArea(no return type and no return type).Write a program with main method that creates two objects of Rectangle class and find their areas and display area of larger rectangle.
+28. Create a class Factorial having instance variable result.Class contains the function name int FindFact(int n) then calculate the factorial of number n and return and print in the main function
+29. Create a class ArraySum having instance variable sum then class contains the function name int Sum(int[ ] a) then calculate the sum of array elements and return and print int the main function
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Sum =55
+
+Note: a is an integer array
+30
+Create a Class Quadratic having a, b, c, x1, and x2 as instance variable. Create a function name Input (no parameter and no return type) to take the user input for a, b, and c. Then create another function name double[ ] Calculate ( ) to calculate two roots and assign to variable x1 and x2 and return these two roots must return  to main function. Create another class Imain having main () function to create an object of Quadratic class and invoke the function.
+31
+Create a class Student having instance variable age and name and class also contains an function name void input( ) for user input age and name. Then create another class Imain and create an array of size 5 of Student then store the Student in array and print those records of array whose age is greater than or equal to 24.
+Pseudocode
+class Student
+{
+          int age;
+         void input( )
+        {
+                  //input goes here
+       }
+} 
+
+class Imain
+{
+      Student[ ] lstStudent = new Student[ 5];
+       //Create 5 objects of Student and store in Array lstStudent
+      //print the  roll and name of students stored in array whose 
+         ages is greater or equal to 24
+}
+
+
+32
+Create a class Complex with two integer instance variables real and img. The class also will contain the method                         void getSum(Complex c1,Complex c2) method that will return the sum of real part and img part of two objects c1 and c2
+Create a class ComplexDemo with main method that will create an object of Complex and find sum of real and img parts of two objects
+class Complex
+{
+      int rea,img;
+     void getSum(Complex c1,Complex c2)
+   {
+         //find the sum of real and img parto of  c1 and c2
+   }     
+}
+
+
+
+//class for main function
+class ComplexDemo
+{
+       psvm(-------)
+       {
+              //create a two objects of Complex name c1 and c2 and   
+             //assign two values real and img for both objects then call   
+           //function getSum(c1,c2)                                        
+      }
+}
+
+
+33
+Create a class Time with three integer instance variables hr ,min,sec. The class also will contain the method                           Tim Sum(Time  t1,Time t2) method that will return the sum of t1 and t2 
+Create a class TimeDemo with main method that will create an object of Time and to invoke the Sum function and print the added time  
+
+Output : t1—>5:40:40
+                t2—>4:40:50
+Total Sum t3—>10:21:30
+
+
+
+34
+Create an interface called Calculate which has methods int add(int x ,int y) and int diff(int x,int y) to perform addition and subtraction of numbers passed as arguments. Then define a class that implements interface calculate.
+35
+Create an interface Shape which method get() and display().Create two classes Rectangle and Square which implements this interface.defines the instance variable of these classes as per requirement in class itself.Create some instances of Rectangle and Square classes and demonstrate interface implementation by classes .
+36
+Create an abstract class called Fmachine having methods getdata() and pudata().Derive a class Airplane,having variables code,name,capacity and methods getdata() and putdata() (that override Fmachine’s getdata() and pudata()) to read and display the result.Create some instances of Ariplane  and call the required methods.
+37
+Define String array of size 4 and store name of 4 students .The display the names of students whose name has character t.
+38
+Create a String array of size 5 and store the country name in the array. Then display the name of the country in alphabetical order.
+
